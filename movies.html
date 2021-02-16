@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+</head>
+<body class="bg-gray-800">
+  
+  <div class="movies p-16 md:flex md:flex-wrap">
+    <!-- JavaScript puts stuff here -->
+  </div>
+
+  <!-- Put the Firebase config here -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-firestore.js"></script>
+
+  <script>
+        var firebaseConfig = {
+        apiKey: "AIzaSyCZWtBsPh8VKDpdltOnXqUGpfmzxg7bjEA",
+        authDomain: "kiei-451-20b4d.firebaseapp.com",
+        projectId: "kiei-451-20b4d",
+        storageBucket: "kiei-451-20b4d.appspot.com",
+        messagingSenderId: "121638939410",
+        appId: "1:121638939410:web:a597d6d3ba2abd8e16e1cb"
+     };
+        firebase.initializeApp(firebaseConfig);
+  </script>
+  <script src="movies.js"></script>
+</body>
+</html>
